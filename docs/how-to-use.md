@@ -56,11 +56,11 @@ After creating a new Final Cut Pro (for iPad) project using Transfer Toolbox, yo
 
 Right-click on the new Final Cut Pro (for iPad) project in Finder and select **Show Package Contents**.
 
-![_Screenshot of Finder_](static/show-package-contents.jpeg)
+![_Screenshot of Finder_](static/show-package-contents.png)
 
 Within the package contents, two folders deep, you'll find the Final Cut Pro (for Mac) library that you can now open on your Mac.
 
-![_Screenshot of Finder_](static/inside-project.jpeg)
+![_Screenshot of Finder_](static/inside-project.png)
 
 Once you open it, and allow Background Tasks to complete, you can then close it, as the document-scope security-scoped bookmarks should now be updated.
 
