@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738328876339">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738330984595">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.738328876339" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.738330984595" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738328876339" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738330984595" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738328876339" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738330984595" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -257,6 +257,29 @@
 </figure>
 </p>
 <p>You can now use <a href="https://support.apple.com/en-au/HT203106#:%7E:text=Select%20AirDrop%20in%20the%20sidebar,recipient%20shown%20in%20the%20window.">Airdrop</a>, <a href="https://support.apple.com/en-au/guide/mac-help/mchle5a61431/mac">iCloud Drive</a> or other means (such as putting on an external hard drive) to move the project from your Mac to your iPad.</p>
+<hr />
+<doc-anchor-target id="storing-media-externally">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#storing-media-externally">#</doc-anchor-trigger>
+        <span>Storing Media Externally</span>
+    </h2>
+</doc-anchor-target>
+<p>Surprisingly, it is actually possible to store media on an external hard drive.</p>
+<p>You need to create the Final Cut Pro library on macOS, and make sure you keep the media <strong>external</strong> to the library.</p>
+<p>As long as both the generated Final Cut Pro (for iPad) project and media are on the same external hard drive, in the same location as they were on the Mac, everything will work.</p>
+<p>The reason for this is that internally Final Cut Pro (for Mac) created document-scope security-scoped bookmarks to each media file, which Final Cut Pro (for iPad) can also use to get access to the files, even in a sandboxed environment.</p>
+<p>You can import Final Cut Pro (for iPad) libraries via the home screen:</p>
+<p><figure class="content-center">
+    <img src="../static/import-ipad.jpeg" alt="Screenshot of Final Cut Pro (for iPad)" />
+    <figcaption class="caption"><em>Screenshot of Final Cut Pro (for iPad)</em></figcaption>
+</figure>
+</p>
+<p>Just select the project on your external drive:</p>
+<p><figure class="content-center">
+    <img src="../static/external-ssd.jpeg" alt="Screenshot of Final Cut Pro (for iPad)" />
+    <figcaption class="caption"><em>Screenshot of Final Cut Pro (for iPad)</em></figcaption>
+</figure>
+</p>
 <hr />
 <doc-anchor-target id="tips">
     <h2>
