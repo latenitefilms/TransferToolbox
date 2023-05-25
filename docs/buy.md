@@ -4,7 +4,7 @@
 
 This is generally $4.99 in your local currency (i.e. AUD4.99, USD4.99, CAD4.99).
 
-However, if your country doesn't "support" 4.99, it will default to a USD4.99 equivalent (i.e. ¥700).
+However, if your country doesn't have an equivalent of $4.99 (i.e. ¥700), it will default to a USD$4.99 equivalent.
 
 > **_[You can open on the App Store here.](https://apps.apple.com/us/app/transfer-toolbox/id6449526499)_**
 

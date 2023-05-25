@@ -1,8 +1,26 @@
 # How To Use
 
-Simply drag and drop your Final Cut Pro (for Mac) library into the drop zone:
+Simply drag and drop your **Final Cut Pro (for Mac) library** into the drop zone:
 
 ![_Screenshot of Transfer Toolbox_](static/homepage.png)
+
+You will be presented with a Open Panel to grant sandbox access to that library:
+
+![_Screenshot of Transfer Toolbox_](static/grant-access.png)
+
+After clicking **Grant Access**, you'll be presented with a success message:
+
+![_Screenshot of Transfer Toolbox_](static/victory.png)
+
+You'll now find a `.fcpproj` file in the same folder as your `.fcpbundle`:
+
+![_Screenshot of Transfer Toolbox_](static/result-files.png)
+
+You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Select%20AirDrop%20in%20the%20sidebar,recipient%20shown%20in%20the%20window.), [iCloud Drive](https://support.apple.com/en-au/guide/mac-help/mchle5a61431/mac) or other means (such as putting on an external hard drive) to move the project from your Mac to your iPad.
+
+---
+
+## Tips
 
 Some important things to keep in mind:
 
