@@ -1,5 +1,7 @@
 # How To Use
 
+## Introduction
+
 Simply drag and drop your **Final Cut Pro (for Mac) library** into the drop zone:
 
 ![_Screenshot of Transfer Toolbox_](static/homepage.png)
