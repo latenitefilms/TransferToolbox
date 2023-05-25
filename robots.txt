@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://transfertoolbox.io/sitemap.xml.gz
