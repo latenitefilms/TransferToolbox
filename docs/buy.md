@@ -1,5 +1,9 @@
 # Buy on Mac App Store
 
+!!!
+Transfer Toolbox has not yet been released on the Mac App Store. We're waiting for Apple to review.
+!!!
+
 **Transfer Toolbox** is a one-time payment of **$4.99**.
 
 This is generally $4.99 in your local currency (i.e. AUD4.99, USD4.99, CAD4.99).

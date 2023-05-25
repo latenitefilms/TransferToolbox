@@ -20,6 +20,26 @@ You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Selec
 
 ---
 
+## Storing Media Externally
+
+Surprisingly, it is actually possible to store media on an external hard drive.
+
+You need to create the Final Cut Pro library on macOS, and make sure you keep the media **external** to the library.
+
+As long as both the generated Final Cut Pro (for iPad) project and media are on the same external hard drive, in the same location as they were on the Mac, everything will work.
+
+The reason for this is that internally Final Cut Pro (for Mac) created document-scope security-scoped bookmarks to each media file, which Final Cut Pro (for iPad) can also use to get access to the files, even in a sandboxed environment.
+
+You can import Final Cut Pro (for iPad) libraries via the home screen:
+
+![_Screenshot of Final Cut Pro (for iPad)_](static/import-ipad.jpeg)
+
+Just select the project on your external drive:
+
+![_Screenshot of Final Cut Pro (for iPad)_](static/external-ssd.jpeg)
+
+---
+
 ## Tips
 
 Some important things to keep in mind:
