@@ -1,7 +1,7 @@
 # Buy on Mac App Store
 
 !!!
-Transfer Toolbox has not yet been released on the Mac App Store. We're waiting for Apple to review.
+**NOTE:** Transfer Toolbox has not yet been released on the Mac App Store. We're waiting for Apple to review.
 !!!
 
 **Transfer Toolbox** is a one-time payment of **$4.99**.
