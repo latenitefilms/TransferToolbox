@@ -20,7 +20,27 @@ You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Selec
 
 ---
 
+## Tips & Gottchas
+
+Some important things to keep in mind:
+
+- Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
+- You should ensure your library only has a single event.
+- Transfer Toolbox will warn you if it detects more than one event, but it still allows you to proceed.
+- All project timecode should start at **00:00:00:00**.
+- All Motion Content and Media should be contained within the Library (or on the [same external drive](https://transfertoolbox.io/how-to-use/#storing-media-externally)).
+- If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
+- Not all Motion Templates will work on the iPad. For example, some Titles using the Match Move behaviour don't appear correctly on Final Cut Pro (for iPad).
+- FxPlug4 effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad.
+- Final Cut Pro (for iPad) will always ignore proxy files - it always using the Original media files.
+
+---
+
 ## Storing Media Externally
+
+!!!
+**NOTE:** As Final Cut Pro for iPad is very new - this is all very experimental. Explore with caution!
+!!!
 
 Surprisingly, it is actually possible to store media on an external hard drive.
 
@@ -30,24 +50,24 @@ As long as both the generated Final Cut Pro (for iPad) project and media are on 
 
 The reason for this is that internally Final Cut Pro (for Mac) created document-scope security-scoped bookmarks to each media file, which Final Cut Pro (for iPad) can also use to get access to the files, even in a sandboxed environment.
 
-You can import Final Cut Pro (for iPad) libraries via the home screen:
+After creating a new Final Cut Pro (for iPad) project using Transfer Toolbox, you may need to open the library back up on the Mac, to update all the bookmarks.
+
+Right-click on the new Final Cut Pro (for iPad) project in Finder and select **Show Package Contents**.
+
+![_Screenshot of Finder_](static/show-package-contents.jpeg)
+
+Within the package contents, two folders deep, you'll find the Final Cut Pro (for Mac) library that you can now open on your Mac.
+
+![_Screenshot of Finder_](static/inside-project.jpeg)
+
+Once you open it, and allow Background Tasks to complete, you can then close it, as the document-scope security-scoped bookmarks should now be updated.
+
+We will investigate automating this process in a future update.
+
+You can then import Final Cut Pro (for iPad) libraries via the home screen:
 
 ![_Screenshot of Final Cut Pro (for iPad)_](static/import-ipad.jpeg)
 
 Just select the project on your external drive:
 
 ![_Screenshot of Final Cut Pro (for iPad)_](static/external-ssd.jpeg)
-
----
-
-## Tips
-
-Some important things to keep in mind:
-
-- Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
-- You should ensure your library only has a single event.
-- All project timecode should start at **00:00:00:00**.
-- All Motion Content and Media should be contained within the Library.
-- If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
-- Not all Motion Templates will work on the iPad.
-- FxPlug4 effects will not work at all on the iPad.
