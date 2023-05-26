@@ -34,7 +34,7 @@ Some important things to keep in mind:
 - If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
 - Not all Motion Templates will work on the iPad. For example, some Titles using the Match Move behaviour don't appear correctly on Final Cut Pro (for iPad).
 - FxPlug4 effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad.
-- Final Cut Pro (for iPad) will always ignore proxy files - it always using the Original media files.
+- Final Cut Pro (for iPad) will always ignore proxy files - it will always use the Original high-quality media files.
 - Soundtracks will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
 
 ---
