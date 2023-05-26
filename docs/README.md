@@ -1,7 +1,9 @@
 # Transfer Toolbox
 
 !!!
-**NOTE:** Transfer Toolbox has not yet been released on the Mac App Store. We're waiting for Apple to review.
+**NOTE:** Transfer Toolbox has **not yet** been released on the Mac App Store. We submitted to App Review on 25th May at 7pm, and are still awaiting approval or rejection.
+
+If we can't release on the Mac App Store for whatever reason, we'll explore other distribution options. Stay tuned!
 !!!
 
 Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
