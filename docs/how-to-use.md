@@ -35,6 +35,7 @@ Some important things to keep in mind:
 - Not all Motion Templates will work on the iPad. For example, some Titles using the Match Move behaviour don't appear correctly on Final Cut Pro (for iPad).
 - FxPlug4 effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad.
 - Final Cut Pro (for iPad) will always ignore proxy files - it always using the Original media files.
+- Soundtracks will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
 
 ---
 
