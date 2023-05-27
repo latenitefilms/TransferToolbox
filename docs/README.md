@@ -6,6 +6,8 @@
 We submitted to App Review on 25th May at 7pm, and are still awaiting approval or rejection.
 
 If we can't release on the Mac App Store for whatever reason, we'll explore other distribution options. Stay tuned!
+
+However, if you want to test via TestFlight, [please get in touch](https://transfertoolbox.io/support/).
 !!!
 
 Transfer Toolbox allows you to convert Final Cut Pro (for Mac) libraries into Final Cut Pro (for iPad) projects!
