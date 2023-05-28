@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738540604057">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738579692726">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.738540604057" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.738579692726" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738540604057" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738579692726" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738540604057" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738579692726" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -266,12 +266,14 @@
 <li>Transfer Toolbox will warn you if it detects more than one event, but it still allows you to proceed.</li>
 <li>All project timecode should start at <strong>00:00:00:00</strong>.</li>
 <li>All Motion Content and Media should be contained within the Library (or on the <a href="https://transfertoolbox.io/how-to-use/#storing-media-externally">same external drive</a>).</li>
-<li>If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.</li>
-<li>Not all Motion Templates will work on the iPad. For example, some Titles using the Match Move behaviour don&#x27;t appear correctly on Final Cut Pro (for iPad).</li>
-<li>FxPlug4 effects (such as <a href="https://brawtoolbox.io">BRAW Toolbox</a>) will not work at all on the iPad.</li>
-<li>Final Cut Pro (for iPad) will always ignore proxy files - it will always use the Original high-quality media files.</li>
-<li>Soundtracks will come across from iPad to Mac. However, they&#x27;re not &quot;normal&quot; audio clips, and won&#x27;t appear if you export a FCPXML.</li>
+<li>Your Final Cut Pro (for Mac) timeline/project cannot have any <strong>Stabilisation or Rolling Shutter</strong> effects enabled. If you do, the iPad will just say &quot;Import Failed&quot;.</li>
+<li>If you have <strong>custom fonts</strong> on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.</li>
+<li>Not all Motion Templates will work on the iPad. For example, some Titles using the <strong>Match Move Behaviour</strong> don&#x27;t appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.</li>
+<li><strong>FxPlug4</strong> effects (such as <a href="https://brawtoolbox.io">BRAW Toolbox</a>) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there&#x27;s currently no mechanism for third party to add FxPlug4 to iPad.</li>
+<li>Final Cut Pro (for iPad) will always <strong>ignore proxy files</strong> - it will always use the Original high-quality media files.</li>
+<li><strong>Soundtracks</strong> will come across from iPad to Mac. However, they&#x27;re not &quot;normal&quot; audio clips, and won&#x27;t appear if you export a FCPXML.</li>
 </ul>
+<p>If you find any other issues/limitations, <a href="https://transfertoolbox.io/support/">please let us know</a>.</p>
 <hr />
 <doc-anchor-target id="storing-media-externally">
     <h2>
