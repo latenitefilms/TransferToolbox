@@ -31,11 +31,14 @@ Some important things to keep in mind:
 - Transfer Toolbox will warn you if it detects more than one event, but it still allows you to proceed.
 - All project timecode should start at **00:00:00:00**.
 - All Motion Content and Media should be contained within the Library (or on the [same external drive](https://transfertoolbox.io/how-to-use/#storing-media-externally)).
-- If you have custom fonts on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
-- Not all Motion Templates will work on the iPad. For example, some Titles using the Match Move behaviour don't appear correctly on Final Cut Pro (for iPad).
-- FxPlug4 effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad.
-- Final Cut Pro (for iPad) will always ignore proxy files - it will always use the Original high-quality media files.
-- Soundtracks will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
+- Your Final Cut Pro (for Mac) timeline/project cannot have any **Stabilisation or Rolling Shutter** effects enabled. If you do, the iPad will just say "Import Failed".
+- If you have **custom fonts** on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
+- Not all Motion Templates will work on the iPad. For example, some Titles using the **Match Move Behaviour** don't appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.
+- **FxPlug4** effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there's currently no mechanism for third party to add FxPlug4 to iPad.
+- Final Cut Pro (for iPad) will always **ignore proxy files** - it will always use the Original high-quality media files.
+- **Soundtracks** will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
+
+If you find any other issues/limitations, [please let us know](https://transfertoolbox.io/support/).
 
 ---
 
