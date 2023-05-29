@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738625682898">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.738662056569">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.738625682898" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.738662056569" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738625682898" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.738662056569" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738625682898" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.738662056569" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -281,29 +281,15 @@
         <span>Storing Media Externally</span>
     </h2>
 </doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p><strong>NOTE:</strong> As Final Cut Pro for iPad is very new - this is all very experimental. Explore with caution!</p>
-        </div>
-    </div>
-</div>
-<p>Surprisingly, it is actually possible to store media on an external hard drive.</p>
-<p>You need to create the Final Cut Pro library on macOS, and make sure you keep the media <strong>external</strong> to the library.</p>
+<p>Interestingly, it is actually possible to &quot;link&quot; to media on an external hard drive.</p>
+<p>However, even though Final Cut Pro (for iPad) will &quot;link&quot; to the external drive initially, and when you first start editing, you&#x27;ll be editing off the external drive - in the background, Final Cut Pro will start copying everything across to the internal drive.</p>
+<p>As far as we can tell, there&#x27;s currently no way to stop Final Cut Pro from importing the footage to your iPad&#x27;s internal drive.</p>
+<p>This works slightly differently to DaVinci Resolve (for iPad) and LumaFusion, which both support &quot;linking&quot; to external drives without having a local/internal copy.</p>
+<p>With that in mind, if you still want to &quot;link&quot; to your media initially, you&#x27;ll need to create the Final Cut Pro library on macOS, and make sure you keep the media <strong>external</strong> to the library.</p>
 <p>As long as both the generated Final Cut Pro (for iPad) project and media are on the same external hard drive, in the same location as they were on the Mac, everything will work.</p>
 <p>The reason for this is that internally Final Cut Pro (for Mac) created document-scope security-scoped bookmarks to each media file, which Final Cut Pro (for iPad) can also use to get access to the files, even in a sandboxed environment.</p>
 <p>After creating a new Final Cut Pro (for iPad) project using Transfer Toolbox, you may need to open the library back up on the Mac, to update all the bookmarks.</p>
-<p>Right-click on the new Final Cut Pro (for iPad) project in Finder and select <strong>Show Package Contents</strong>.</p>
+<p>Simply right-click on the new Final Cut Pro (for iPad) project in Finder and select <strong>Show Package Contents</strong>.</p>
 <p><figure class="content-center">
     <img src="../static/show-package-contents.png" alt="Screenshot of Finder" />
     <figcaption class="caption"><em>Screenshot of Finder</em></figcaption>
