@@ -44,13 +44,15 @@ If you find any other issues/limitations, [please let us know](https://transfert
 
 ## Storing Media Externally
 
-!!!
-**NOTE:** As Final Cut Pro for iPad is very new - this is all very experimental. Explore with caution!
-!!!
+Interestingly, it is actually possible to "link" to media on an external hard drive.
 
-Surprisingly, it is actually possible to store media on an external hard drive.
+However, even though Final Cut Pro (for iPad) will "link" to the external drive initially, and when you first start editing, you'll be editing off the external drive - in the background, Final Cut Pro will start copying everything across to the internal drive.
 
-You need to create the Final Cut Pro library on macOS, and make sure you keep the media **external** to the library.
+As far as we can tell, there's currently no way to stop Final Cut Pro from importing the footage to your iPad's internal drive.
+
+This works slightly differently to DaVinci Resolve (for iPad) and LumaFusion, which both support "linking" to external drives without having a local/internal copy.
+
+With that in mind, if you still want to "link" to your media initially, you'll need to create the Final Cut Pro library on macOS, and make sure you keep the media **external** to the library.
 
 As long as both the generated Final Cut Pro (for iPad) project and media are on the same external hard drive, in the same location as they were on the Mac, everything will work.
 
@@ -58,7 +60,7 @@ The reason for this is that internally Final Cut Pro (for Mac) created document-
 
 After creating a new Final Cut Pro (for iPad) project using Transfer Toolbox, you may need to open the library back up on the Mac, to update all the bookmarks.
 
-Right-click on the new Final Cut Pro (for iPad) project in Finder and select **Show Package Contents**.
+Simply right-click on the new Final Cut Pro (for iPad) project in Finder and select **Show Package Contents**.
 
 ![_Screenshot of Finder_](static/show-package-contents.png)
 
