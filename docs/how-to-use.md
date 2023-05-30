@@ -1,6 +1,6 @@
 # How To Use
 
-## Introduction
+### Introduction
 
 Simply drag and drop your **Final Cut Pro (for Mac) library** into the drop zone:
 
@@ -22,7 +22,44 @@ You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Selec
 
 ---
 
-## Tips & Gottchas
+### Supported Media in Final Cut Pro for iPad
+
+#### Video Formats
+
+- Apple ProRes
+- Apple ProRes RAW and Apple ProRes RAW HQ
+- H.264
+- HEVC
+- MXF (Apple ProRes)
+
+#### Audio Formats
+
+- AAC
+- AIFF
+- BWF
+- CAF
+- MP3
+- MP4
+- WAV
+
+#### Still-image Formats
+
+- Apple ProRAW
+- BMP
+- GIF
+- HEIF
+- JPEG
+- PNG
+- PSD
+- RAW
+- TGA
+- TIFF
+
+You can also find this information on [Apple's website](https://support.apple.com/en-au/guide/final-cut-pro-ipad/dev3f1bb94c2/ipados).
+
+---
+
+### Tips & Gottchas
 
 Some important things to keep in mind:
 
@@ -37,12 +74,13 @@ Some important things to keep in mind:
 - **FxPlug4** effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there's currently no mechanism for third party to add FxPlug4 to iPad.
 - Final Cut Pro (for iPad) will always **ignore proxy files** - it will always use the Original high-quality media files.
 - **Soundtracks** will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
+- Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven't been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using older devices.
 
 If you find any other issues/limitations, [please let us know](https://transfertoolbox.io/support/).
 
 ---
 
-## Storing Media Externally
+### Storing Media Externally
 
 Interestingly, it is actually possible to "link" to media on an external hard drive.
 
