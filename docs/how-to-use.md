@@ -64,17 +64,19 @@ You can also find this information on [Apple's website](https://support.apple.co
 Some important things to keep in mind:
 
 - Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
-- You should ensure your library only has a single event.
+- You should ensure your library only has a **single event** with the following name: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, but it still allows you to proceed.
+- If you use a different event name, you may not see anything in your browser on the iPad.
 - All project timecode should start at **00:00:00:00**.
 - All Motion Content and Media should be contained within the Library (or on the [same external drive](https://transfertoolbox.io/how-to-use/#storing-media-externally)).
-- Your Final Cut Pro (for Mac) timeline/project cannot have any **Stabilisation or Rolling Shutter** effects enabled. If you do, the iPad will just say "Import Failed".
+- Your Final Cut Pro (for Mac) timeline/project cannot have any **Stabilisation or Rolling Shutter** effects enabled. If you do, the iPad will just say **Import Failed**.
 - If you have **custom fonts** on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
+- Currently there's no way to manually install fonts on iPad - you can only install fonts via apps that contain fonts, [via the App Store](https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados).
 - Not all Motion Templates will work on the iPad. For example, some Titles using the **Match Move Behaviour** don't appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.
 - **FxPlug4** effects (such as [BRAW Toolbox](https://brawtoolbox.io)) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there's currently no mechanism for third party to add FxPlug4 to iPad.
 - Final Cut Pro (for iPad) will always **ignore proxy files** - it will always use the Original high-quality media files.
-- **Soundtracks** will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
-- Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven't been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using older devices.
+- **Soundtracks** will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML. This bug has been [reported to Apple](https://github.com/CommandPost/FCPCafe/issues/94).
+- Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven't been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using "older" devices.
 - **Compound Clips** will come across correctly, however you cannot modify them in Final Cut Pro for iPad.
 - **Multicam Clips** with more than 4 angles will come across correctly, however you still only have access to the first 4 angles in Final Cut Pro for iPad.
 
