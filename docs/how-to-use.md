@@ -49,6 +49,20 @@ If you find any other issues or limitations, [please let us know](https://transf
 
 ---
 
+### Storing Media on iCloud
+
+It is possible to store your media on iCloud Drive and effectively "share it" between your Mac and your iPad.
+
+When you import media into Final Cut Pro for iPad it will **always** copy to the library.
+
+However, because iPad's use [Apple File System (APFS)](https://support.apple.com/en-au/guide/disk-utility/dsku19ed921c/mac) for their internal storage, even thought it's **copying** the files from the iCloud drive cache to the Final Cut Pro library, it doesn't actually take up any more "physical" drive space.
+
+When you duplicate a file in APFS, rather than immediately making a complete second copy of the file, the file system essentially just creates a new reference, or pointer, to the existing data. This means that, the duplicate file doesn't take up any extra space because it's just pointing to the same underlying data as the original file.
+
+When sending your project from Final Cut Pro on iPad back to your Mac, just export with the **Include All Media** option disabled, and then manually relink to your iCloud Drive files within Final Cut Pro on Mac.
+
+---
+
 ### Storing Media Externally
 
 Interestingly, it is actually possible to "link" to media on an external hard drive.
