@@ -20,48 +20,13 @@ You'll now find a `.fcpproj` file in the same folder as your `.fcpbundle`:
 
 You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Select%20AirDrop%20in%20the%20sidebar,recipient%20shown%20in%20the%20window.), [iCloud Drive](https://support.apple.com/en-au/guide/mac-help/mchle5a61431/mac) or other means (such as putting on an external hard drive) to move the project from your Mac to your iPad.
 
----
-
-### Supported Media in Final Cut Pro for iPad
-
-#### Video Formats
-
-- Apple ProRes
-- Apple ProRes RAW and Apple ProRes RAW HQ
-- H.264
-- HEVC
-- MXF (Apple ProRes)
-
-#### Audio Formats
-
-- AAC
-- AIFF
-- BWF
-- CAF
-- MP3
-- MP4
-- WAV
-
-#### Still-image Formats
-
-- Apple ProRAW
-- BMP
-- GIF
-- HEIF
-- JPEG
-- PNG
-- PSD
-- RAW
-- TGA
-- TIFF
-
-You can also find this information on [Apple's website](https://support.apple.com/en-au/guide/final-cut-pro-ipad/dev3f1bb94c2/ipados).
+However, it's **very important** you read the rest of the information below before continuing...
 
 ---
 
-### Tips & Gottchas
+### Limitations & Known Issues
 
-Some important things to keep in mind:
+Some very important things to keep in mind:
 
 - Transfer Toolbox requires Final Cut Pro 10.6.6 or later.
 - You should ensure your library only has a **single event** with the following name: **Default MM-DD-YY** (i.e **Default 05-31-23**).
@@ -80,7 +45,7 @@ Some important things to keep in mind:
 - **Compound Clips** will come across correctly, however you cannot modify them in Final Cut Pro for iPad.
 - **Multicam Clips** with more than 4 angles will come across correctly, however you still only have access to the first 4 angles in Final Cut Pro for iPad.
 
-If you find any other issues/limitations, [please let us know](https://transfertoolbox.io/support/).
+If you find any other issues or limitations, [please let us know](https://transfertoolbox.io/support/).
 
 ---
 
@@ -121,3 +86,40 @@ You can then import Final Cut Pro (for iPad) libraries via the home screen:
 Just select the project on your external drive:
 
 ![_Screenshot of Final Cut Pro (for iPad)_](static/external-ssd.jpeg)
+
+---
+
+### Supported Media in Final Cut Pro for iPad
+
+#### Video Formats
+
+- Apple ProRes
+- Apple ProRes RAW and Apple ProRes RAW HQ
+- H.264
+- HEVC
+- MXF (Apple ProRes)
+
+#### Audio Formats
+
+- AAC
+- AIFF
+- BWF
+- CAF
+- MP3
+- MP4
+- WAV
+
+#### Still-image Formats
+
+- Apple ProRAW
+- BMP
+- GIF
+- HEIF
+- JPEG
+- PNG
+- PSD
+- RAW
+- TGA
+- TIFF
+
+You can also find this information on [Apple's website](https://support.apple.com/en-au/guide/final-cut-pro-ipad/dev3f1bb94c2/ipados).
