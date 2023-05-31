@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.738823356953">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.738827238631">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.1">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.1.738823356953" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.1.738827238631" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.1.738823356953" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.1.738827238631" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.1.738823356953" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.1.738827238631" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -280,6 +280,18 @@
 <li><strong>Multicam Clips</strong> with more than 4 angles will come across correctly, however you still only have access to the first 4 angles in Final Cut Pro for iPad.</li>
 </ul>
 <p>If you find any other issues or limitations, <a href="https://transfertoolbox.io/support/">please let us know</a>.</p>
+<hr />
+<doc-anchor-target id="storing-media-on-icloud">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#storing-media-on-icloud">#</doc-anchor-trigger>
+        <span>Storing Media on iCloud</span>
+    </h3>
+</doc-anchor-target>
+<p>It is possible to store your media on iCloud Drive and effectively &quot;share it&quot; between your Mac and your iPad.</p>
+<p>When you import media into Final Cut Pro for iPad it will <strong>always</strong> copy to the library.</p>
+<p>However, because iPad&#x27;s use <a href="https://support.apple.com/en-au/guide/disk-utility/dsku19ed921c/mac">Apple File System (APFS)</a> for their internal storage, even thought it&#x27;s <strong>copying</strong> the files from the iCloud drive cache to the Final Cut Pro library, it doesn&#x27;t actually take up any more &quot;physical&quot; drive space.</p>
+<p>When you duplicate a file in APFS, rather than immediately making a complete second copy of the file, the file system essentially just creates a new reference, or pointer, to the existing data. This means that, the duplicate file doesn&#x27;t take up any extra space because it&#x27;s just pointing to the same underlying data as the original file.</p>
+<p>When sending your project from Final Cut Pro on iPad back to your Mac, just export with the <strong>Include All Media</strong> option disabled, and then manually relink to your iCloud Drive files within Final Cut Pro on Mac.</p>
 <hr />
 <doc-anchor-target id="storing-media-externally">
     <h3>
