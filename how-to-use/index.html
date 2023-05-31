@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.0.738818807396">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.1.738822968342">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.0.0">
+    <meta name="generator" content="Retype 3.0.1">
 
     <!-- Primary Meta Tags -->
     <title>How To Use</title>
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.0.738818807396" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.1.738822968342" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.0.738818807396" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../resources/js/retype.js?v=3.0.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.0.738818807396" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.1.738822968342" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/retype.js?v=3.0.1" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.1.738822968342" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -316,17 +316,19 @@
 <p>Some important things to keep in mind:</p>
 <ul>
 <li>Transfer Toolbox requires Final Cut Pro 10.6.6 or later.</li>
-<li>You should ensure your library only has a single event.</li>
+<li>You should ensure your library only has a <strong>single event</strong> with the following name: <strong>Default MM-DD-YY</strong> (i.e <strong>Default 05-31-23</strong>).</li>
 <li>Transfer Toolbox will warn you if it detects more than one event, but it still allows you to proceed.</li>
+<li>If you use a different event name, you may not see anything in your browser on the iPad.</li>
 <li>All project timecode should start at <strong>00:00:00:00</strong>.</li>
 <li>All Motion Content and Media should be contained within the Library (or on the <a href="https://transfertoolbox.io/how-to-use/#storing-media-externally">same external drive</a>).</li>
-<li>Your Final Cut Pro (for Mac) timeline/project cannot have any <strong>Stabilisation or Rolling Shutter</strong> effects enabled. If you do, the iPad will just say &quot;Import Failed&quot;.</li>
+<li>Your Final Cut Pro (for Mac) timeline/project cannot have any <strong>Stabilisation or Rolling Shutter</strong> effects enabled. If you do, the iPad will just say <strong>Import Failed</strong>.</li>
 <li>If you have <strong>custom fonts</strong> on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.</li>
+<li>Currently there&#x27;s no way to manually install fonts on iPad - you can only install fonts via apps that contain fonts, <a href="https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados">via the App Store</a>.</li>
 <li>Not all Motion Templates will work on the iPad. For example, some Titles using the <strong>Match Move Behaviour</strong> don&#x27;t appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.</li>
 <li><strong>FxPlug4</strong> effects (such as <a href="https://brawtoolbox.io">BRAW Toolbox</a>) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there&#x27;s currently no mechanism for third party to add FxPlug4 to iPad.</li>
 <li>Final Cut Pro (for iPad) will always <strong>ignore proxy files</strong> - it will always use the Original high-quality media files.</li>
-<li><strong>Soundtracks</strong> will come across from iPad to Mac. However, they&#x27;re not &quot;normal&quot; audio clips, and won&#x27;t appear if you export a FCPXML.</li>
-<li>Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven&#x27;t been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using older devices.</li>
+<li><strong>Soundtracks</strong> will come across from iPad to Mac. However, they&#x27;re not &quot;normal&quot; audio clips, and won&#x27;t appear if you export a FCPXML. This bug has been <a href="https://github.com/CommandPost/FCPCafe/issues/94">reported to Apple</a>.</li>
+<li>Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven&#x27;t been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using &quot;older&quot; devices.</li>
 <li><strong>Compound Clips</strong> will come across correctly, however you cannot modify them in Final Cut Pro for iPad.</li>
 <li><strong>Multicam Clips</strong> with more than 4 angles will come across correctly, however you still only have access to the first 4 angles in Final Cut Pro for iPad.</li>
 </ul>
