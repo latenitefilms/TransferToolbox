@@ -75,6 +75,8 @@ Some important things to keep in mind:
 - Final Cut Pro (for iPad) will always **ignore proxy files** - it will always use the Original high-quality media files.
 - **Soundtracks** will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML.
 - Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven't been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using older devices.
+- **Compound Clips** will come across correctly, however you cannot modify them in Final Cut Pro for iPad.
+- **Multicam Clips** with more than 4 angles will come across correctly, however you still only have access to the first 4 angles in Final Cut Pro for iPad.
 
 If you find any other issues/limitations, [please let us know](https://transfertoolbox.io/support/).
 
