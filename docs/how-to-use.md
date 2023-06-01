@@ -1,5 +1,13 @@
 # How To Use
 
+---
+
+!!!danger Important
+Final Cut Pro for iPad v1.0.0 is brand new, so there are a bunch of known issues and limitations. Read this **entire page** carefully, and do workflow tests before using on a proper job.
+!!!
+
+---
+
 ### Introduction
 
 Simply drag and drop your **Final Cut Pro (for Mac) library** into the drop zone:
@@ -44,6 +52,7 @@ Some very important things to keep in mind:
 - Some users have reported that when you AirDrop from Mac to iPad, it can take a few minutes for the project to appear in Final Cut Pro for iPad. We haven't been able to reproduce this on a 12.9inch iPad Pro, so it may be hardware dependant. Basically... be patient if using "older" devices.
 - **Compound Clips** will come across correctly, however you cannot modify them in Final Cut Pro for iPad.
 - **Multicam Clips** with more than 4 angles will come across correctly, however you still only have access to the first 4 angles in Final Cut Pro for iPad.
+- The **Flow** transition does work correctly between Mac and iPad, however, interestingly, the rendering results can be visually different between platforms. Mac seems better quality than iPad.
 
 If you find any other issues or limitations, [please let us know](https://transfertoolbox.io/support/).
 
