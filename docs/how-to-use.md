@@ -75,11 +75,11 @@ Once corrupted, the drive no longer appears on iPad.
 
 What's **worse** is that once the external drive is corrupt, as soon as you plug it into an Apple Silicon or Intel Mac, it will just crash the system straight away. An instant and fatal kernel panic.
 
-The only way we've been able to fix the corrupt drives is to use a Windows PC, and use [HFS+ for Windows by Paragon Software](https://www.paragon-software.com/home/hfs-windows/) to mount and repair the drive.
+The only way we've been able to fix the corrupt drives is to use a Windows PC, and use [HFS+ for Windows by Paragon Software](https://www.paragon-software.com/home/hfs-windows/){target="_blank"} to mount and repair the drive.
 
 Once repaired on Windows, it works fine again on macOS and iPad.
 
-Given this, it's our **strong recommendation** that if you're using an external drives on iPad, that before you "pull the plug" you "force quit" all applications.
+Given this, it's our **strong recommendation** that if you're using an external drives on iPad, that before you "pull the plug" you "force quit" all applications or better yet, [shutdown the iPad](https://support.apple.com/en-au/guide/ipad/ipad63d30b5a/ipados){target="_blank"} whenever ejecting drives.
 
 You can force quit application on the iPad, by tapping the bottom of the screen and dragging up to the middle, then stopping. This opens the **App Switcher**. You can then swipe up on an app to force quit it.
 
