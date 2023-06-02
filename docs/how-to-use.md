@@ -104,7 +104,8 @@ When sending your project from Final Cut Pro on iPad back to your Mac, just expo
 ### Storing Media Externally
 
 !!!danger Important
-Unfortunately, whilst this worked in Final Cut Pro v1.0.0, Apple has removed support for this workaround in Final Cut Pro v1.0.1. We haven't found a workaround yet.
+Unfortunately, whilst this worked in **Final Cut Pro v1.0.0**, Apple has removed support for this workaround in **Final Cut Pro v1.0.1**.<br />
+We are still testing and exploring other possibilities.
 !!!
 
 Interestingly, it is actually possible to "link" to media on an external hard drive.
