@@ -1,7 +1,7 @@
 # Transfer Toolbox
 
-!!!
-**NOTE:** Transfer Toolbox has **not yet** been released on the Mac App Store.
+!!!danger NOTE
+Transfer Toolbox has **not yet** been released on the Mac App Store.
 
 We submitted to App Review on 25th May, and it was rejected on 3rd June for apparently violating [App Store Guideline 2.5.1](https://developer.apple.com/app-store/review/guidelines/#software-requirements){target="_blank"}.
 
