@@ -34,6 +34,14 @@ However, it's **very important** you read the rest of the information below befo
 
 ---
 
+### Video Tutorial
+
+Serge M has done an awesome video explaining how Transfer Toolbox works on YouTube:
+
+[![](/static/serge-youtube.jpg)](https://www.youtube.com/watch?v=DZdyb2YCRNQ){target="_blank"}
+
+---
+
 ### Limitations & Known Issues
 
 Some very important things to keep in mind:
