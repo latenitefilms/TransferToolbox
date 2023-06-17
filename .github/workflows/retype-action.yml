@@ -39,11 +39,10 @@ jobs:
         with:
           name: appcast.xml
 
-      - name: Checkout retype branch and copy appcast.xml
+      - name: Checkout retype branch and add appcast.xml
         run: |
           git fetch
           git checkout retype
-          cp appcast.xml ./appcast.xml
           git add appcast.xml
           git commit -m "Copy docs/appcast.xml file from main branch and move to root" || echo "No changes to commit"
           git push origin retype
