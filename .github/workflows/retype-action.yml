@@ -16,18 +16,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # This ensures all branches and tags are fetched
 
-      - name: Copy and move docs/appcast.xml file
+      - name: Copy docs/appcast.xml to temporary directory
         run: |
-          git fetch
-          git checkout retype || git checkout -b retype
-          git checkout main -- docs/appcast.xml
-          mv docs/appcast.xml appcast.xml
-          git add appcast.xml
-          git commit -m "Copy docs/appcast.xml file from main branch and move to root" || echo "No changes to commit"
-          git push origin retype
+          mkdir tmp
+          cp docs/appcast.xml tmp/appcast.xml
 
       - uses: retypeapp/action-build@latest
         with:
@@ -36,6 +29,15 @@ jobs:
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
+
+      - name: Checkout retype branch and copy appcast.xml
+        run: |
+          git fetch
+          git checkout retype
+          cp tmp/appcast.xml ./appcast.xml
+          git add appcast.xml
+          git commit -m "Copy docs/appcast.xml file from main branch and move to root" || echo "No changes to commit"
+          git push origin retype
 
       - name: Purge CloudFlare cache
         run: |
