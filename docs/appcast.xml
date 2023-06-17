@@ -9,7 +9,7 @@
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://transfertoolbox.io/Transfer-Toolbox-1-0-2.zip" length="5127304" type="application/octet-stream" sparkle:edSignature="NGcgZ5hGLFj2Sxv5WLjp6XK+lzudHuyZ+kTHzxF9kJsI8Zyz99ri0n+jXze5PcJh7aUzgS2r7gi3COyqZs7LAA=="/>
+            <enclosure url="https://github.com/latenitefilms/TransferToolbox/releases/download/1.0.2/Transfer-Toolbox-1-0-2.zip" length="5127304" type="application/octet-stream" sparkle:edSignature="NGcgZ5hGLFj2Sxv5WLjp6XK+lzudHuyZ+kTHzxF9kJsI8Zyz99ri0n+jXze5PcJh7aUzgS2r7gi3COyqZs7LAA=="/>
         </item>
     </channel>
 </rss>
