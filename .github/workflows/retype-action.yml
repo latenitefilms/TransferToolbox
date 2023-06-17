@@ -17,10 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Copy docs/appcast.xml to temporary directory
+      - name: Copy docs/appcast.xml to temporary directory and upload as artifact
         run: |
-          mkdir tmp
-          cp docs/appcast.xml tmp/appcast.xml
+          cp docs/appcast.xml appcast.xml
+        id: appcast-file
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: appcast.xml
+          path: appcast.xml
 
       - uses: retypeapp/action-build@latest
         with:
@@ -30,11 +35,15 @@ jobs:
         with:
           update-branch: true
 
+      - uses: actions/download-artifact@v2
+        with:
+          name: appcast.xml
+
       - name: Checkout retype branch and copy appcast.xml
         run: |
           git fetch
           git checkout retype
-          cp tmp/appcast.xml ./appcast.xml
+          cp appcast.xml ./appcast.xml
           git add appcast.xml
           git commit -m "Copy docs/appcast.xml file from main branch and move to root" || echo "No changes to commit"
           git push origin retype
