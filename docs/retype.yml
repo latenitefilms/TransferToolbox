@@ -41,3 +41,7 @@ footer:
   copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
 
 poweredByRetype: false
+
+data:
+  star: "<span class=\"fa fa-star checked\"></span>"
+  unstar: "<span class=\"fa fa-star\">"
