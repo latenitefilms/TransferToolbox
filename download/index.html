@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740362753408">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740363356444">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.3.740362753408" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740363356444" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740362753408" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740363356444" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740362753408" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740363356444" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -349,13 +349,14 @@
 <p>With no way to undo this, we were forced to submit a new binary, v1.0.1.</p>
 <p>This was accepted by TestFlight, however, it was rejected by App Review on <strong>3rd June 2023 at 07:04</strong>, due to:</p>
 <blockquote>
-<p><strong>Guideline 2.5.1 - Performance - Software Requirements</strong>
-We noticed your app allows users to import Final Cut Pro on Mac projects to Final Cut Pro on iPad, which is not a supported path at this time.</p>
-<p>Final Cut Pro supports sharing projects from iPad to Mac. Due to differences in the file formats, attempting other unsupported and undocumented paths may lead to broken projects or other issues.</p>
+<p><strong>Guideline 2.5.1 - Performance - Software Requirements</strong><br />
+We noticed your app allows users to import Final Cut Pro on Mac projects to Final Cut Pro on iPad, which is not a supported path at this time.<br />
+<br />
+Final Cut Pro supports sharing projects from iPad to Mac. Due to differences in the file formats, attempting other unsupported and undocumented paths may lead to broken projects or other issues.</p>
 </blockquote>
 <p>These guidelines are very specific:</p>
 <blockquote>
-<p>2.5 Software Requirements
+<p>2.5 Software Requirements<br />
 2.5.1 Apps may only use public APIs and must run on the currently shipping OS. Learn more about public APIs. Keep your apps up-to-date and make sure you phase out any deprecated features, frameworks or technologies that will no longer be supported in future versions of an OS. Apps should use APIs and frameworks for their intended purposes and indicate that integration in their app description. For example, the HomeKit framework should provide home automation services; and HealthKit should be used for health and fitness purposes and integrate with the Health app.</p>
 </blockquote>
 <p>As far as we can determine, Transfer Toolbox doesn&#x27;t actually break this guideline.</p>
