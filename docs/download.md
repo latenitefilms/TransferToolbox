@@ -4,9 +4,15 @@
 Massive thanks to the **107 beta testers** on Apple's TestFlight for all their support and positive feedback!
 !!!
 
+---
+
 You can download **Transfer Toolbox v1.0.2** for free [here](https://github.com/latenitefilms/TransferToolbox/releases/download/1.0.2/Transfer-Toolbox-1-0-2.zip).
 
-If you find Transfer Toolbox useful, consider [buying us a coffee](https://www.buymeacoffee.com/latenitefilms){target="_blank"}.
+---
+
+!!!primary ☕️ Buy Us a Coffee!
+If you find Transfer Toolbox useful, consider [buying us a coffee](https://www.buymeacoffee.com/latenitefilms){target="_blank"} or [sponsoring CommandPost](https://commandpost.io/sponsor/){target="_blank"}.
+!!!
 
 ---
 
