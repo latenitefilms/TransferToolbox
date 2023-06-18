@@ -12,9 +12,15 @@ We've been using Transfer Toolbox at [LateNite](https://latenitefilms.com){targe
 
 ## Introduction
 
-Your **Final Cut Pro (for Mac) Library** should contain a **single Event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
+Your **Final Cut Pro (for Mac) Library** should contain a **single Event** with the following naming convention:
 
-Simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone:
+> **Default MM-DD-YY**
+
+For example:
+
+> **Default 05-31-23**
+
+Then, simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone:
 
 ![](static/homepage.png)
 
