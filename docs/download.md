@@ -14,6 +14,16 @@ If you find Transfer Toolbox useful, consider [buying us a coffee](https://www.b
 
 ---
 
+### What about the TestFlight version?
+
+The version currently on Apple's TestFlight (v1.0.1) is functionally identical to v1.0.2 - we just cleaned up the user interface, and updated the icon.
+
+We'll leave the TestFlight version online (unless Apple forcefully removes it), so our beta testers can continue to use it until **24th August 2023**.
+
+However, you can also just drag the TestFlight version to Trash/Bin and download the latest version above if you prefer.
+
+---
+
 ### Why it this now free?
 
 Our original intention was to release this as a paid app on the Mac App Store for a one-time payment of **4.99** (in your local currency).
