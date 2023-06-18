@@ -10,31 +10,43 @@ We've been using Transfer Toolbox at [LateNite](https://latenitefilms.com){targe
 
 ---
 
-### Introduction
+## Introduction
 
-Simply drag and drop your **Final Cut Pro (for Mac) library** into the drop zone:
+Your **Final Cut Pro (for Mac) Library** should contain a **single Event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 
-![_Screenshot of Transfer Toolbox_](static/homepage.png)
+Simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone:
 
-You will be presented with a Open Panel to grant sandbox access to that library:
+![](static/homepage.png)
 
-![_Screenshot of Transfer Toolbox_](static/grant-access.png)
+If you drag in a **Final Cut Pro (for Mac) Library** with Multiple Events, you'll be presented with this warning:
+
+![](static/multiple-events.png)
+
+If you drag in a **Final Cut Pro (for Mac) Library** with the wrong Event naming convention, you'll be presented with this warning:
+
+![](static/invalid-event-name.png)
+
+If you've dragged in a valid **Final Cut Pro (for Mac) Library**, or you clicked **OK** to either of the above warnings, you will be presented with a Open Panel to **Grant Access** to that Library:
+
+![](static/grant-access.png)
 
 After clicking **Grant Access**, you'll be presented with a success message:
 
-![_Screenshot of Transfer Toolbox_](static/victory.png)
+![](static/victory.png)
 
 You'll now find a `.fcpproj` file in the same folder as your `.fcpbundle`:
 
-![_Screenshot of Transfer Toolbox_](static/result-files.png)
+![](static/result-files.png)
 
 You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Select%20AirDrop%20in%20the%20sidebar,recipient%20shown%20in%20the%20window.){target="_blank"}, [iCloud Drive](https://support.apple.com/en-au/guide/mac-help/mchle5a61431/mac){target="_blank"} or other means (such as putting on an external hard drive) to move the project from your Mac to your iPad.
 
-However, it's **very important** you read the rest of the information below before continuing...
+You can now continue editing on **Final Cut Pro (for iPad)**!
+
+However, it's **very important** you read the rest **Limitations & Known Issues** below, so that you're aware of things that don't translate properly between Mac and iPad.
 
 ---
 
-### Video Tutorial
+## Video Tutorial
 
 Serge M has done an awesome video explaining how Transfer Toolbox works on YouTube:
 
@@ -42,14 +54,14 @@ Serge M has done an awesome video explaining how Transfer Toolbox works on YouTu
 
 ---
 
-### Limitations & Known Issues
+## Limitations & Known Issues
 
 Some very important things to keep in mind:
 
 - Transfer Toolbox requires **Final Cut Pro 10.6.6** or later.
 - Transfer Toolbox has been tested on Final Cut Pro **v1.0.0 and v1.0.1** for iPad.
-- You should ensure your library only has a **single event** with the following name: **Default MM-DD-YY** (i.e **Default 05-31-23**).
-- Transfer Toolbox will warn you if it detects more than one event, but it still allows you to proceed.
+- You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
+- Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
 - All project timecode should start at **00:00:00:00**.
 - All Motion Content and Media should be contained within the Library (or on the [same external drive](https://transfertoolbox.io/how-to-use/#storing-media-externally)).
@@ -69,7 +81,7 @@ If you find any other issues or limitations, [please let us know](https://transf
 
 ---
 
-### Danger using External Drives on iPad
+## Danger using External Drives on iPad
 
 The fact that you can just plug in an external drive into an iPad Pro via USB-C is awesome and amazing!
 
@@ -95,7 +107,7 @@ If you're external drive has an LED status light, that's another good way to det
 
 ---
 
-### Storing Media on iCloud
+## Storing Media on iCloud
 
 It is possible to store your media on iCloud Drive and effectively "share it" between your Mac and your iPad.
 
@@ -109,7 +121,7 @@ When sending your project from Final Cut Pro on iPad back to your Mac, just expo
 
 ---
 
-### Storing Media Externally
+## Storing Media Externally
 
 !!!danger Important
 Unfortunately, whilst this worked on **Final Cut Pro v1.0.0**, Apple has removed support for this workflow in **Final Cut Pro v1.0.1**.<br />
@@ -154,9 +166,11 @@ Just select the project on your external drive:
 
 ---
 
-### Supported Media in Final Cut Pro for iPad
+## Supported Media
 
-#### Video Formats
+Below is a list of Supported Media in Final Cut Pro for iPad:
+
+### Video Formats
 
 - Apple ProRes
 - Apple ProRes RAW and Apple ProRes RAW HQ
@@ -164,7 +178,7 @@ Just select the project on your external drive:
 - HEVC
 - MXF (Apple ProRes)
 
-#### Audio Formats
+### Audio Formats
 
 - AAC
 - AIFF
@@ -174,7 +188,7 @@ Just select the project on your external drive:
 - MP4
 - WAV
 
-#### Still-image Formats
+### Stills Formats
 
 - Apple ProRAW
 - BMP
@@ -188,3 +202,11 @@ Just select the project on your external drive:
 - TIFF
 
 You can also find this information on [Apple's website](https://support.apple.com/en-au/guide/final-cut-pro-ipad/dev3f1bb94c2/ipados){target="_blank"}.
+
+---
+
+## Camera Formats
+
+Final Cut Pro for iPad supports a wide range of third-party digital video and still cameras.
+
+You can see the full list on [Apple's website](https://support.apple.com/en-au/HT213668){target="_blank"}.
