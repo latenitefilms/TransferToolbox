@@ -141,6 +141,7 @@ When sending your project from Final Cut Pro on iPad back to your Mac, just expo
 
 !!!danger Important
 Unfortunately, whilst this worked on **Final Cut Pro v1.0.0**, Apple has removed support for this workflow in **Final Cut Pro v1.0.1**.<br />
+<br />
 We are still testing and exploring other possibilities and workarounds for "linking to" external media.
 !!!
 
