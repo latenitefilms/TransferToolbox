@@ -20,14 +20,14 @@ With no way to undo this, we were forced to submit a new binary, v1.0.1.
 
 This was accepted by TestFlight, however, it was rejected by App Review on **3rd June 2023 at 07:04**, due to:
 
-> **Guideline 2.5.1 - Performance - Software Requirements**
-> We noticed your app allows users to import Final Cut Pro on Mac projects to Final Cut Pro on iPad, which is not a supported path at this time.
->
+> **Guideline 2.5.1 - Performance - Software Requirements**<br />
+> We noticed your app allows users to import Final Cut Pro on Mac projects to Final Cut Pro on iPad, which is not a supported path at this time.<br />
+><br />
 > Final Cut Pro supports sharing projects from iPad to Mac. Due to differences in the file formats, attempting other unsupported and undocumented paths may lead to broken projects or other issues.
 
 These guidelines are very specific:
 
-> 2.5 Software Requirements
+> 2.5 Software Requirements<br />
 > 2.5.1 Apps may only use public APIs and must run on the currently shipping OS. Learn more about public APIs. Keep your apps up-to-date and make sure you phase out any deprecated features, frameworks or technologies that will no longer be supported in future versions of an OS. Apps should use APIs and frameworks for their intended purposes and indicate that integration in their app description. For example, the HomeKit framework should provide home automation services; and HealthKit should be used for health and fitness purposes and integrate with the Health app.
 
 As far as we can determine, Transfer Toolbox doesn't actually break this guideline.
