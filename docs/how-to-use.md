@@ -107,9 +107,13 @@ We have submitted a feature request to Apple, as [explained on FCP Cafe](https:/
 
 **However**, if you use the same Custom Font within a Motion Template on Mac, it **will** work on iPad.
 
-For example, here's the familiar [BBC Reith](https://www.bbc.co.uk/branding/reith-font/){target="_blank"} font in Final Cut Pro for iPad:
+For example, the [BBC](https://www.bbc.co.uk){target="_blank"} uses Final Cut Pro for a lot of their programs, so here's the familiar [BBC Reith](https://www.bbc.co.uk/branding/reith-font/){target="_blank"} font in Final Cut Pro for iPad:
 
 ![](../static/bbc-font.jpeg)
+
+!!!warning Please Note:
+You may only use BBC Reith if you have an agreement or other authorisation to collaborate with the BBC or BBC Studios. This may be as a broadcasting partner or co-production partner, event promoter, or as a customer of BBC Studios.
+!!!
 
 However, even though the above screenshot shows the [BBC Reith](https://www.bbc.co.uk/branding/reith-font/){target="_blank"} font in the Inspector, it **won't** appear if you add another Title within Final Cut Pro (for iPad).
 
