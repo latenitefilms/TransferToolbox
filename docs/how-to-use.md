@@ -97,21 +97,23 @@ If you find any other issues or limitations, [please let us know](https://transf
 
 ## Custom Fonts
 
-Whilst it's possible to install Custom fonts on your iPad using an app such as [Fontcase](https://apps.apple.com/au/app/fontcase-manage-your-type/id1205074470){target="_blank"}, and these fonts will appear in apps such as Pages and Numbers, they do **not** appear in Final Cut Pro (for iPad) inspector.
+Whilst it's possible to install Custom Fonts on your iPad using an app such as [Fontcase](https://apps.apple.com/au/app/fontcase-manage-your-type/id1205074470){target="_blank"}, and these fonts will appear in apps such as Pages and Numbers, they do **not** appear in the Final Cut Pro (for iPad) Inspector.
 
-You can also install fonts via apps that contain fonts, [via the App Store](https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados){target="_blank"}, however, these also do **not** appear in Final Cut Pro (for iPad) inspector.
+You can also install fonts via apps that contain fonts, [via the App Store](https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados){target="_blank"}, however, these also do **not** appear in the Final Cut Pro (for iPad) Inspector.
 
-It seems that Final Cut Pro (for iPad) only lists a very strict set of built-in fonts.
+**Final Cut Pro (for iPad) only lists a very strict set of built-in fonts in the Inspector.**
 
 We have submitted a feature request to Apple, as [explained on FCP Cafe](https://github.com/CommandPost/FCPCafe/issues/200){target="_blank"}.
 
-**However**, if you use the same custom font within a Motion Template on Mac, it will work on iPad.
+**However**, if you use the same Custom Font within a Motion Template on Mac, it **will** work on iPad.
 
-For example, here's the [BBC Reith](https://www.bbc.co.uk/branding/reith-font/){target="_blank"} in Final Cut Pro for iPad:
+For example, here's the familiar [BBC Reith](https://www.bbc.co.uk/branding/reith-font/){target="_blank"} font in Final Cut Pro for iPad:
 
 ![](../static/bbc-font.jpeg)
 
-However, even though the above screenshot shows the BBC font in the Inspector, it won't appear if you add a Title within Final Cut Pro (for iPad).
+However, even though the above screenshot shows the [BBC Reith](https://www.bbc.co.uk/branding/reith-font/){target="_blank"} font in the Inspector, it **won't** appear if you add another Title within Final Cut Pro (for iPad).
+
+You can edit the text though, as normal. Just keep in mind if you change the font to something else, you **can't** change it back.
 
 ---
 
