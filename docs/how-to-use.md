@@ -20,6 +20,8 @@ For example:
 
 > **Default 05-31-23**
 
+You can handle multiple projects in that single Event, but their start timecode should all be **00:00:00:00**.
+
 Then, simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone:
 
 ![](static/transfer-toolbox.png)
@@ -69,7 +71,7 @@ Some very important things to keep in mind:
 - You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
-- All project timecode should start at **00:00:00:00**.
+- All project timecode should start at **00:00:00:00**. I **assume** this is because there's currently no way in Final Cut Pro (for iPad) to customise the start timecode of a timeline.
 - All Motion Content and Media should be contained within the Library (or on the [same external drive](https://transfertoolbox.io/how-to-use/#storing-media-externally)).
 - Your Final Cut Pro (for Mac) timeline/project cannot have any **Stabilisation or Rolling Shutter** effects enabled. If you do, the iPad will just say **Import Failed**.
 - If you have **custom fonts** on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
