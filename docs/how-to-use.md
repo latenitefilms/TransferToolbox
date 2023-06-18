@@ -80,10 +80,8 @@ Some very important things to keep in mind:
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
 - All project timecode should start at **00:00:00:00**. I **assume** this is because there's currently no way in Final Cut Pro (for iPad) to customise the start timecode of a timeline.
-- All Motion Content and Media should be contained within the Library (or on the [same external drive](https://transfertoolbox.io/how-to-use/#storing-media-externally)).
+- All Motion Content and Media should be contained within the Library (i.e. set the Motion Content Storage Location to **In Library** in the Library Inspector on your Mac).
 - Your Final Cut Pro (for Mac) timeline/project cannot have any **Stabilisation or Rolling Shutter** effects enabled. If you do, the iPad will just say **Import Failed**.
-- If you have **custom fonts** on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.
-- Currently there's no way to manually install fonts on iPad - you can only install fonts via apps that contain fonts, [via the App Store](https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados){target="_blank"}.
 - Not all Motion Templates will work on the iPad. For example, some Titles using the **Match Move Behaviour** don't appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.
 - **FxPlug4** effects (such as [BRAW Toolbox](https://brawtoolbox.io){target="_blank"}) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there's currently no mechanism for third party to add FxPlug4 to iPad.
 - Final Cut Pro (for iPad) will always **ignore proxy files** - it will always use the Original high-quality media files.
@@ -94,6 +92,18 @@ Some very important things to keep in mind:
 - The **Flow** transition does work correctly between Mac and iPad, however, interestingly, the rendering results can be visually different between platforms. Mac seems better quality than iPad.
 
 If you find any other issues or limitations, [please let us know](https://transfertoolbox.io/support/).
+
+---
+
+## Custom Fonts
+
+Whilst it's possible to install Custom fonts on your iPad using an app such as [Fontcase](https://apps.apple.com/au/app/fontcase-manage-your-type/id1205074470){target="_blank"}, and these fonts will appear in apps such as Pages and Numbers, they do **not** however appear in Final Cut Pro (for iPad).
+
+You can also install fonts via apps that contain fonts, [via the App Store](https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados){target="_blank"}, however, these also don't appear in Final Cut Pro (for iPad).
+
+It seems that Final Cut Pro (for iPad) only lists a very strict set of built-in fonts.
+
+We have submitted a feature request to Apple, as [explained on FCP Cafe](https://github.com/CommandPost/FCPCafe/issues/200){target="_blank"}.
 
 ---
 
