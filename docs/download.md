@@ -32,9 +32,9 @@ These guidelines are very specific:
 
 As far as we can determine, Transfer Toolbox doesn't actually break this guideline.
 
-We took advantage of the App Review Board, and their Unfair Treatment appeal option, however, it was determined that we're still breaking Guideline 2.5.1:
+We took advantage of the App Review Board, and their Unfair Treatment appeal option, however, it was determined that we're still breaking Guideline 2.5.1.
 
-After a phone call with the App Review Board on **16th June 2023**, we sent them this message, but have yet to hear back:
+After a phone call with the App Review Board on **16th June 2023**, we then sent them this message, but have yet to hear back:
 
 > Thank you for taking the time to discuss and clarify the issues surrounding our app, Transfer Toolbox. I appreciate your detailed feedback and the reasoning behind the decision to reject the app.
 >
@@ -68,4 +68,6 @@ After a phone call with the App Review Board on **16th June 2023**, we sent them
 >
 > Thank you again for your time and consideration, and I look forward to your further clarification on this matter.
 
-It seems unlikely that Apple will ever change their position, so we've decided to just release this for free, as we feel it's still a very useful feature for the Final Cut Pro community.
+It seems unlikely that Apple will ever change their position, so we've decided to just release this for **free**, as we feel it's still a very useful feature for the Final Cut Pro community.
+
+It's our expectation that **eventually** Apple will [Sherlock](https://512pixels.net/2013/12/the-brushed-metal-diaries-sherlock/){target="_blank"} Transfer Toolbox, and build in the native ability to get between Mac and iPad - hopefully via iCloud. However, given it's been over a decade and we still don't have a native scrolling timeline in Final Cut Pro for Mac, who knows when it'll happen.
