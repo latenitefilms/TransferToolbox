@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740365283969">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740367249269">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.3.740365283969" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740367249269" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740365283969" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740367249269" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740365283969" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740367249269" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -354,6 +354,7 @@ We&#x27;ve been using Transfer Toolbox at <a href="https://latenitefilms.com" ta
 <blockquote>
 <p><strong>Default 05-31-23</strong></p>
 </blockquote>
+<p>You can handle multiple projects in that single Event, but their start timecode should all be <strong>00:00:00:00</strong>.</p>
 <p>Then, simply drag-and-drop your <strong>Final Cut Pro (for Mac) library</strong> onto the Library icon drop zone:</p>
 <p><figure class="content-center">
     <img src="../static/transfer-toolbox.png" alt="" />
@@ -416,7 +417,7 @@ We&#x27;ve been using Transfer Toolbox at <a href="https://latenitefilms.com" ta
 <li>You should ensure your library only has a <strong>single event</strong> with the following naming convention: <strong>Default MM-DD-YY</strong> (i.e <strong>Default 05-31-23</strong>).</li>
 <li>Transfer Toolbox will warn you if it detects more than one event, or if you don&#x27;t use the above event naming convention, but it still allows you to proceed.</li>
 <li>If you use a different event name, you may not see anything in your browser on the iPad.</li>
-<li>All project timecode should start at <strong>00:00:00:00</strong>.</li>
+<li>All project timecode should start at <strong>00:00:00:00</strong>. I <strong>assume</strong> this is because there&#x27;s currently no way in Final Cut Pro (for iPad) to customise the start timecode of a timeline.</li>
 <li>All Motion Content and Media should be contained within the Library (or on the <a href="https://transfertoolbox.io/how-to-use/#storing-media-externally">same external drive</a>).</li>
 <li>Your Final Cut Pro (for Mac) timeline/project cannot have any <strong>Stabilisation or Rolling Shutter</strong> effects enabled. If you do, the iPad will just say <strong>Import Failed</strong>.</li>
 <li>If you have <strong>custom fonts</strong> on the Mac Final Cut Pro library, you should manually install them on the iPad before importing the project.</li>
