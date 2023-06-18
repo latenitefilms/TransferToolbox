@@ -22,7 +22,7 @@ For example:
 
 Then, simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone:
 
-![](static/homepage.png)
+![](static/transfer-toolbox.png)
 
 If you drag in a **Final Cut Pro (for Mac) Library** with Multiple Events, you'll be presented with this warning:
 
