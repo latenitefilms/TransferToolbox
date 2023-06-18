@@ -22,11 +22,11 @@ For example:
 
 You can handle multiple projects in that single Event, but their start timecode should all be **00:00:00:00**.
 
-Then, simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone:
+Then, simply drag-and-drop your **Final Cut Pro (for Mac) library** onto the Library icon drop zone, or click the **Convert Library** button to manually select a **Final Cut Pro (for Mac) library**:
 
 ![](static/transfer-toolbox.png)
 
-If you drag in a **Final Cut Pro (for Mac) Library** with Multiple Events, you'll be presented with this warning:
+If you drag in a **Final Cut Pro (for Mac) Library** with multiple Events, you'll be presented with this warning:
 
 ![](static/multiple-events.png)
 
@@ -50,7 +50,7 @@ You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Selec
 
 You can now continue editing on **Final Cut Pro (for iPad)**!
 
-However, it's **very important** you read the rest **Limitations & Known Issues** below, so that you're aware of things that don't translate properly between Mac and iPad.
+However, it's **very important** that you read the rest of the **Limitations & Known Issues** below, so that you're aware of things that don't translate properly between Mac and iPad.
 
 ---
 
