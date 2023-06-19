@@ -82,7 +82,7 @@ Some very important things to keep in mind:
 - All project timecode should start at **00:00:00:00**. I **assume** this is because there's currently no way in Final Cut Pro (for iPad) to customise the start timecode of a timeline.
 - All Motion Content and Media should be contained within the Library (i.e. set the Motion Content Storage Location to **In Library** in the Library Inspector on your Mac).
 - Your Final Cut Pro (for Mac) timeline/project cannot have any **Stabilisation or Rolling Shutter** effects enabled. If you do, the iPad will just say **Import Failed**.
-- Not all Motion Templates will work on the iPad. For example, some Titles using the **Match Move Behaviour** don't appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.
+- Not all Motion Templates will display correctly on the iPad. For example, some Titles using the **Match Move Behaviour** don't appear correctly on Final Cut Pro (for iPad) - the positions are all wrong.
 - **FxPlug4** effects (such as [BRAW Toolbox](https://brawtoolbox.io){target="_blank"}) will not work at all on the iPad. Whilst Final Cut Pro (for iPad) does seem to have FxPlug4 Frameworks, there's currently no mechanism for third party to add FxPlug4 to iPad.
 - Final Cut Pro (for iPad) will always **ignore proxy files** - it will always use the Original high-quality media files.
 - **Soundtracks** will come across from iPad to Mac. However, they're not "normal" audio clips, and won't appear if you export a FCPXML. This bug has been [reported to Apple](https://github.com/CommandPost/FCPCafe/issues/94){target="_blank"}.
