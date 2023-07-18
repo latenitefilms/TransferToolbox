@@ -2,6 +2,11 @@
 
 ---
 
+!!!danger Version Conflict
+**Final Cut Pro 10.6.7 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.<br />
+This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
+!!!
+
 !!!danger Important
 Final Cut Pro for iPad is obviously brand new, so there are a bunch of **known issues and limitations**.<br />
 Please read this **entire page** carefully, and do **workflow tests** before using on a proper job.<br />
@@ -74,8 +79,9 @@ Serge M has done an awesome video explaining how Transfer Toolbox works on YouTu
 
 Some very important things to keep in mind:
 
-- Transfer Toolbox requires **Final Cut Pro 10.6.6** or later.
-- Transfer Toolbox has been tested on Final Cut Pro **v1.0.0 and v1.0.1** for iPad.
+- Transfer Toolbox requires **Final Cut Pro 10.6.6**.
+- Transfer Toolbox has been tested on Final Cut Pro **v1.0.0**, **v1.0.1** and **v1.1** for iPad.
+- **Final Cut Pro 10.6.7 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**. This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
 - You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
@@ -96,6 +102,10 @@ If you find any other issues or limitations, [please let us know](https://transf
 ---
 
 ## Custom Fonts
+
+!!!success Update!
+Custom Fonts now appear correctly in **Final Cut Pro (for iPad) v1.1** user interface. Thanks Apple!
+!!!
 
 Whilst it's possible to install Custom Fonts on your iPad using an app such as [Fontcase](https://apps.apple.com/au/app/fontcase-manage-your-type/id1205074470){target="_blank"}, and these fonts will appear in apps such as Pages and Numbers, they do **not** appear in the Final Cut Pro (for iPad) Inspector.
 
