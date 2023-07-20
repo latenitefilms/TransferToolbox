@@ -1,5 +1,10 @@
 # Download
 
+!!!danger Version Conflict
+**Final Cut Pro 10.6.7 (for Mac)** uses a newer Library format than **Final Cut Pro 1.1 (for iPad)**.<br />
+This means that if you want to use Transfer Toolbox to go from Mac to iPad, you should keep using **Final Cut Pro 10.6.6 (for Mac)**.
+!!!
+
 !!!success
 Massive thanks to the **107 beta testers** on Apple's TestFlight for all their support and positive feedback!
 !!!
