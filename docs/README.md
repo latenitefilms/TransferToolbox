@@ -6,7 +6,7 @@ Transfer Toolbox allows you to convert **Final Cut Pro 10.7 (for Mac) Libraries*
 
 > [:icon-desktop-download: Download for **free** here...](/download/)
 
-![](static/transfer-toolbox-about.png)
+![](static/transfer-toolbox-about.jpg)
 
 You can now easily get from your Mac to your iPad!
 
