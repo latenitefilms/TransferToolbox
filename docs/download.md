@@ -5,7 +5,7 @@ You can download **Transfer Toolbox v1.1.0** for free [here](https://github.com/
 Please make sure you [read the manual](/how-to-use/), and review the [system requirements](/system-requirements/) before downloading.
 
 !!!primary
-If you find Transfer Toolbox useful, consider [buying us a coffee](https://www.buymeacoffee.com/latenitefilms){target="_blank"} or [sponsoring CommandPost](https://commandpost.io/sponsor/){target="_blank"}.
+If you find Transfer Toolbox useful, consider [buying us a coffee](https://www.buymeacoffee.com/latenitefilms) or [sponsoring CommandPost](https://commandpost.io/sponsor/).
 
 <a href="https://www.buymeacoffee.com/latenitefilms" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy us a coffee &emoji=&slug=latenitefilms&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 !!!

@@ -2,9 +2,9 @@
 
 Transfer Toolbox has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite Films](https://latenitefilms.com).
 
-The Transfer Toolbox icon was designed by [Matthew Skiles](https://matthewskiles.com){target="_blank"}.
+The Transfer Toolbox icon was designed by [Matthew Skiles](https://matthewskiles.com).
 
-The Goblins featured in the icon are from LateNite's [Goblin Spoon](https://latenitefilms.com/originals/goblin-spoon/){target="_blank"} series, created by [Nicholas Issell](https://www.imdb.com/name/nm6395828/){target="_blank"}.
+The Goblins featured in the icon are from LateNite's [Goblin Spoon](https://latenitefilms.com/originals/goblin-spoon/) series, created by [Nicholas Issell](https://www.imdb.com/name/nm6395828/).
 
 Special thanks to [David Peterson](https://github.com/randomeizer)!
 
@@ -14,7 +14,7 @@ Chris also created [CommandPost](https://commandpost.io), [BRAW Toolbox](https:/
 
 ## Sparkle
 
-Transfer Toolbox uses [**Sparkle**](https://sparkle-project.org){target="_blank"} for software updates.
+Transfer Toolbox uses [**Sparkle**](https://sparkle-project.org) for software updates.
 
 Copyright (c) 2006-2013 Andy Matuschak.
 Copyright (c) 2009-2013 Elgato Systems GmbH.
@@ -35,7 +35,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### External Licenses
 
-#### [bspatch.c and bsdiff.c, from bsdiff 4.3](http://www.daemonology.net/bsdiff/){target="_blank"}
+#### [bspatch.c and bsdiff.c, from bsdiff 4.3](http://www.daemonology.net/bsdiff/)
 
 Copyright 2003-2005 Colin Percival
 All rights reserved
@@ -49,7 +49,7 @@ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WAR
 
 ---
 
-#### [sais.c and sais.c, from sais-lite (2010/08/07)](https://sites.google.com/site/yuta256/sais){target="_blank"}
+#### [sais.c and sais.c, from sais-lite (2010/08/07)](https://sites.google.com/site/yuta256/sais)
 
 The sais-lite copyright is as follows:
 
