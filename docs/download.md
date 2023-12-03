@@ -1,9 +1,5 @@
 # Download
 
-!!!success
-Massive thanks to the **107 beta testers** on Apple's TestFlight for all their support and positive feedback!
-!!!
-
 You can download **Transfer Toolbox v1.1.0** for free [here](https://github.com/latenitefilms/TransferToolbox/releases/download/1.1.0/Transfer-Toolbox-1-1-0.zip).
 
 Please make sure you [read the manual](/how-to-use/), and review the [System Requirements](/system-requirements/) before downloading.
