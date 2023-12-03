@@ -9,6 +9,20 @@ branding:
 
 links:
 
+- text: Download
+  link: /download/
+  icon: desktop-download
+
+- text: Issues
+  link: https://github.com/latenitefilms/transfertoolbox/issues
+  icon: issue-opened
+  target: blank
+
+- text: Discussions
+  link: https://github.com/latenitefilms/transfertoolbox/discussions
+  icon: comment-discussion
+  target: blank
+
 - text: FCP Cafe
   link: https://fcp.cafe
   icon: flame
@@ -20,7 +34,7 @@ links:
   target: blank
 
 - text: LateNite
-  link: https://latenitefilms.com/technology/
+  link: /latenite-technology/
   icon: light-bulb
 
 footer:
