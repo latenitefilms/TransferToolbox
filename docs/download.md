@@ -1,6 +1,6 @@
 # Download
 
-You can download **Transfer Toolbox v1.1.0** for free [here](https://github.com/latenitefilms/TransferToolbox/releases/download/1.1.0/Transfer-Toolbox-1-1-0.zip).
+You can download **Transfer Toolbox v1.1.1** for free [here](https://github.com/latenitefilms/TransferToolbox/releases/download/1.1.1/Transfer-Toolbox-1-1-1.zip).
 
 Please make sure you [read the manual](/how-to-use/), and review the [system requirements](/system-requirements/) before downloading.
 
