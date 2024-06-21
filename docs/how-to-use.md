@@ -3,9 +3,12 @@
 ---
 
 !!!danger Disclaimer
-Final Cut Pro for iPad is obviously very new, so there are a bunch of **known issues and limitations**.<br />
+Final Cut Pro for iPad is obviously fairly new, so there are a bunch of **known issues and limitations**.<br />
+<br />
 Please read this **entire page** carefully, and do **workflow tests** before using on a proper job.<br />
+<br />
 We've been using Transfer Toolbox at [LateNite](https://latenitefilms.com) since it's release, and it's been awesome - but **use at your own risk**.<br />
+<br />
 Transfer Toolbox is **NOT** recommended or supported by Apple.
 !!!
 
@@ -75,7 +78,7 @@ Serge M has done an awesome video explaining how Transfer Toolbox works on YouTu
 
 Some very important things to keep in mind:
 
-- Transfer Toolbox requires **Final Cut Pro 10.7.1** and **Final Cut Pro 1.3 (for iPad)**.
+- Transfer Toolbox requires **Final Cut Pro 10.8** and **Final Cut Pro 2.0 (for iPad)**.
 - You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
@@ -166,6 +169,10 @@ When sending your project from Final Cut Pro on iPad back to your Mac, just expo
 ---
 
 ## Storing Media Externally
+
+!!!success Update!
+**Final Cut Pro (for iPad) v2.0** now supports storing libraries and media externally. Thanks Apple!
+!!!
 
 !!!danger Important
 Unfortunately, whilst this worked on **Final Cut Pro v1.0.0**, Apple has removed support for this workflow in **Final Cut Pro v1.0.1**.<br />

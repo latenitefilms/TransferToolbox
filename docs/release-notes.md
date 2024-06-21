@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.2.0
+
+**🎉 Released:**
+- 21st June 2024
+
+**🔨 Improvements:**
+- Transfer Toolbox is now compatible with Final Cut Pro 10.8 and Final Cut Pro 2.0 (for iPad).
+- Updated Sparkle from v2.5.2 to v2.6.3.
+
+---
+
 ### 1.1.1
 
 **🎉 Released:**
