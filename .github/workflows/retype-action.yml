@@ -15,19 +15,23 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 7.0.x
 
       - name: Copy docs/appcast.xml to temporary directory and upload as artifact
         run: |
           cp docs/appcast.xml appcast.xml
         id: appcast-file
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: appcast.xml
           path: appcast.xml
 
-      - uses: retypeapp/action-build@v3
+      - uses: retypeapp/action-build@latest
         with:
           license: ${{ secrets.RETYPE_SECRET }}
 
@@ -35,7 +39,7 @@ jobs:
         with:
           update-branch: true
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: appcast.xml
 
