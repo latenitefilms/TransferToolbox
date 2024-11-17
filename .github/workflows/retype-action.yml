@@ -35,7 +35,7 @@ jobs:
         with:
           update-branch: true
 
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: appcast.xml
 
