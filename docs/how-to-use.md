@@ -3,13 +3,13 @@
 ---
 
 !!!danger Disclaimer
-Final Cut Pro for iPad is obviously fairly new, so there are a bunch of **known issues and limitations**.<br />
+Final Cut Pro for iPad very different to the Mac version, so there are a bunch of **known issues and limitations**.<br />
 <br />
 Please read this **entire page** carefully, and do **workflow tests** before using on a proper job.<br />
 <br />
 We've been using Transfer Toolbox at [LateNite](https://latenitefilms.com) since it's release, and it's been awesome - but **use at your own risk**.<br />
 <br />
-Transfer Toolbox is **NOT** recommended or supported by Apple.
+Transfer Toolbox is **NOT** recommended, supported or liked by Apple.
 !!!
 
 ---
@@ -78,7 +78,7 @@ Serge M has done an awesome video explaining how Transfer Toolbox works on YouTu
 
 Some very important things to keep in mind:
 
-- Transfer Toolbox requires **Final Cut Pro 10.8** and **Final Cut Pro 2.0 (for iPad)**.
+- Transfer Toolbox requires **Final Cut Pro 11.0** and **Final Cut Pro 2.1 (for iPad)**.
 - You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
