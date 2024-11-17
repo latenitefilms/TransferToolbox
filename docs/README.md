@@ -16,6 +16,6 @@ Simply drag your existing Final Cut Pro Library into Transfer Toolbox, and a new
 
 You can learn how to use [here](/how-to-use/).
 
-![](static/transfer-toolbox-about.jpg)
-
 > [:icon-desktop-download: Download for **free** here...](/download/)
+
+![](static/transfer-toolbox-about.jpg)
