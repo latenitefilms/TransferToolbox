@@ -15,19 +15,19 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@v3
 
       - name: Copy docs/appcast.xml to temporary directory and upload as artifact
         run: |
           cp docs/appcast.xml appcast.xml
         id: appcast-file
 
-      - uses: actions/upload-artifact@latest
+      - uses: actions/upload-artifact@v2
         with:
           name: appcast.xml
           path: appcast.xml
 
-      - uses: retypeapp/action-build@latest
+      - uses: retypeapp/action-build@v3
         with:
           license: ${{ secrets.RETYPE_SECRET }}
 
@@ -35,7 +35,7 @@ jobs:
         with:
           update-branch: true
 
-      - uses: actions/download-artifact@latest
+      - uses: actions/download-artifact@v3
         with:
           name: appcast.xml
 
