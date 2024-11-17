@@ -22,7 +22,7 @@ jobs:
           cp docs/appcast.xml appcast.xml
         id: appcast-file
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: appcast.xml
           path: appcast.xml
