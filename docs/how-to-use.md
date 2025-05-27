@@ -2,14 +2,10 @@
 
 ---
 
-!!!danger Disclaimer
-Final Cut Pro for iPad very different to the Mac version, so there are a bunch of **known issues and limitations**.<br />
+!!!danger
+Final Cut Pro for iPad is very different to the Mac version, so there are a bunch of **known issues and limitations**.<br />
 <br />
-Please read this **entire page** carefully, and do **workflow tests** before using on a proper job.<br />
-<br />
-We've been using Transfer Toolbox at [LateNite](https://latenitefilms.com) since it's release, and it's been awesome - but **use at your own risk**.<br />
-<br />
-Transfer Toolbox is **NOT** recommended, supported or liked by Apple.
+Please read this **entire page** carefully, and do **workflow tests** before using on a production job.
 !!!
 
 ---
@@ -50,7 +46,7 @@ You'll now find a `.fcpproj` file in the same folder as your `.fcpbundle`:
 
 ![](static/result-files.png)
 
-You can now use [Airdrop](https://support.apple.com/en-au/HT203106#:~:text=Select%20AirDrop%20in%20the%20sidebar,recipient%20shown%20in%20the%20window.), [iCloud Drive](https://support.apple.com/en-au/guide/mac-help/mchle5a61431/mac) or other means (such as putting on an external hard drive) to move the project from your Mac to your iPad.
+You can now use [AirDrop](https://support.apple.com/en-au/HT203106#:~:text=Select%20AirDrop%20in%20the%20sidebar,recipient%20shown%20in%20the%20window.), [iCloud Drive](https://support.apple.com/en-au/guide/mac-help/mchle5a61431/mac) or other means (such as putting on an external hard drive or iCloud Drive) to move the project from your Mac to your iPad.
 
 You can now continue editing on **Final Cut Pro (for iPad)**!
 

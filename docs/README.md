@@ -5,7 +5,7 @@
 Transfer Toolbox allows you to convert **Final Cut Pro 11.0 (for Mac) Libraries** into **Final Cut Pro 2.1 (for iPad) Projects**!
 
 !!!success
-Transfer Toolbox has since been downloaded over **1389** times!
+Transfer Toolbox has since been downloaded over **1957** times!
 
 MASSIVE thank you to the **107 beta testers** on Apple's TestFlight for all their support and positive feedback!
 !!!
