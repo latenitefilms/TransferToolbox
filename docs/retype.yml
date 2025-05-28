@@ -9,8 +9,8 @@ branding:
 
 links:
 
-- text: Download
-  link: /download/
+- text: Buy
+  link: /buy/
   icon: desktop-download
 
 - text: Issues
