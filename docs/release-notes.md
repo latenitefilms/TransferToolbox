@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.4.0
+
+**🎉 Released:**
+- 3rd June 2025
+
+**🔨 Improvements:**
+- Adds support for **Final Cut Pro 11.1.1 (for Mac)** and **Final Cut Pro 2.2.1 (for iPad)**.
+
+---
+
 ### 1.3.0
 
 **🎉 Released:**
