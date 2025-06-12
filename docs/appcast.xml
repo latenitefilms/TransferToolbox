@@ -6,7 +6,7 @@
             <title>1.4.0</title>
             <sparkle:releaseNotesLink>https://transfertoolbox.io/appcast.html</sparkle:releaseNotesLink>
             <pubDate>Tue, 03 Jun 2025 12:14:32 -0800</pubDate>
-            <sparkle:version>7</sparkle:version>
+            <sparkle:version>999</sparkle:version>
             <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.6</sparkle:minimumSystemVersion>
             <enclosure url="https://transfertoolbox.io" length="3969324" type="application/octet-stream" sparkle:edSignature="+RyXs80FgQMUTCx9sIjsJK4CdjlumoA3B7Ucvzn04xV5OGbVG5m79jyQsV8AI59vG7r31PgSVlOUpzg2VmyIDw=="/>
