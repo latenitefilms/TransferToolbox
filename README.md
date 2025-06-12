@@ -4,4 +4,4 @@
 
 Transfer Toolbox allows you to convert **Final Cut Pro (for Mac) Libraries** into **Final Cut Pro (for iPad) Projects**!
 
-**You can download & learn more here: [https://transfertoolbox.io](https://transfertoolbox.io)**
+**You can buy & learn more here: [transfertoolbox.fcp.cafe](https://transfertoolbox.fcp.cafe)**
