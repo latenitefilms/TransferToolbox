@@ -74,7 +74,7 @@ Serge M has done an awesome video explaining how Transfer Toolbox works on YouTu
 
 Some very important things to keep in mind:
 
-- Transfer Toolbox requires **Final Cut Pro 11.0** and **Final Cut Pro 2.1 (for iPad)**.
+- Transfer Toolbox requires **Final Cut Pro 11.2 (for Mac)** and **Final Cut Pro 2.3 (for iPad)**.
 - You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
