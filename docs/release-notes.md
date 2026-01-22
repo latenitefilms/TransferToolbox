@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.4.2
+
+**🎉 Released:**
+- 22nd January 2026
+
+**🔨 Improvements:**
+- Updated the Transfer Toolbox application icon for macOS 26 Tahoe. Thanks Matthew Skiles!
+
+---
+
 ### 1.4.1
 
 **🎉 Released:**
