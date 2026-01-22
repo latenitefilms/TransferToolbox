@@ -1,6 +1,8 @@
 # Buy
 
-You can buy **Transfer Toolbox** on the [Mac App Store](https://apps.apple.com/app/transfer-toolbox/id6449526499).
+> [:icon-desktop-download: **Buy on the Mac App Store**](https://apps.apple.com/app/transfer-toolbox/id6449526499)
+
+**Transfer Toolbox** is a one-time payment of **USD$9.99**.
 
 Please make sure you [read the manual](/how-to-use/), and review the [system requirements](/system-requirements/) before downloading.
 
