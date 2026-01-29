@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.5.0
+
+**🎉 Released:**
+- 29th January 2026
+
+**🔨 Improvements:**
+- Added support for Final Cut Pro v12.0 (for Mac), Final Cut Pro Creator Studio v12.0 (for Mac) and Final Cut Pro Creator Studio v3.0 (for iPad).
+
+---
+
 ### 1.4.2
 
 **🎉 Released:**
