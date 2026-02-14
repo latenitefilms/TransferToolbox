@@ -8,12 +8,18 @@ Please make sure you [read the manual](/how-to-use/), and review the [system req
 
 ---
 
-## Pro Editor Bundle
+## Unlock CommandPost
 
-For only **USD$100**, you can now buy [BRAW Toolbox](https://brawtoolbox.fcp.cafe), [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe), [Marker Toolbox](https://markertoolbox.fcp.cafe), [Recall Toolbox](https://recalltoolbox.fcp.cafe) & [Fast Collections](https://fastcollections.fcp.cafe) as a bundle!
+CommandPost is **The Swiss Army Knife for Post Production Professionals**.
 
-The Mac App Store also supports **Complete My Bundle** - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.
+It's an open source macOS application that makes your post production and editing life faster and lots more fun (everything is better with more buttons!). 🎛️
 
-You can learn more on [FCP Cafe](https://fcp.cafe/latenite/#pro-editor-bundles).
+It's been used for projects at **Netflix**, **Pixar** and extensively at the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
-![](/static/pro-editor-bundle.jpg)
+All of the 2024 and 2025 **Apple Worldwide Developer Conference (WWDC)** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
+
+After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid LateNite application installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).
+
+You can use **ScriptStar** to "unlock" CommandPost!
+
+![](/static/commandpost.png)
