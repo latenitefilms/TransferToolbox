@@ -4,7 +4,7 @@ If you run into any bugs, crashes, or you have a feature request, you can post a
 
 If you have any general questions or feedback, you can discuss [here](https://github.com/latenitefilms/transfertoolbox/discussions).
 
-GitHub registration is free, and this GitHub repository is actively monitored by [LateNite Films](https://github.com/latenitefilms).
+GitHub registration is free, and this GitHub repository is actively monitored by [LateNite](https://github.com/latenitefilms).
 
 You can also email us: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=Transfer%20Toolbox%20Support)
 

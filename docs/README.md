@@ -1,4 +1,4 @@
-<img class="rightLogo" src="https://transfertoolbox.io/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
+<img class="rightLogo" src="/static/logo.png" align="right" style="width: 100px !important; height: 100px !important;" />
 
 # Transfer Toolbox
 
@@ -20,4 +20,4 @@ You can learn how to use [here](/how-to-use/).
 
 > [:icon-desktop-download: Buy now on the Mac App Store](/buy/)
 
-![](static/transfer-toolbox-about.jpg)
+![](static/transfer-toolbox-v2.png)

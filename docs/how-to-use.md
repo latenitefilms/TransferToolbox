@@ -54,14 +54,6 @@ However, it's **very important** that you read the rest of the **Limitations & K
 
 ---
 
-!!!primary
-If you find Transfer Toolbox useful, consider [buying us a coffee](https://www.buymeacoffee.com/latenitefilms) or [sponsoring CommandPost](https://commandpost.io/sponsor/).
-
-<a href="https://www.buymeacoffee.com/latenitefilms" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy us a coffee &emoji=&slug=latenitefilms&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
-!!!
-
----
-
 ## Video Tutorial
 
 Serge M has done an awesome video explaining how Transfer Toolbox works on YouTube:
@@ -74,7 +66,7 @@ Serge M has done an awesome video explaining how Transfer Toolbox works on YouTu
 
 Some very important things to keep in mind:
 
-- Transfer Toolbox requires **Final Cut Pro 11.2 (for Mac)** and **Final Cut Pro 2.3 (for iPad)**.
+- Make sure your version of Final Cut Pro for Mac and iPad is listed on the [System Requirements](/system-requirements/) page.
 - You should ensure your library only has a **single event** with the following naming convention: **Default MM-DD-YY** (i.e **Default 05-31-23**).
 - Transfer Toolbox will warn you if it detects more than one event, or if you don't use the above event naming convention, but it still allows you to proceed.
 - If you use a different event name, you may not see anything in your browser on the iPad.
@@ -96,31 +88,7 @@ If you find any other issues or limitations, [please let us know](https://transf
 
 ## Custom Fonts
 
-!!!success Update!
-Custom Fonts now appear correctly in **Final Cut Pro (for iPad) v1.1** user interface. Thanks Apple!
-!!!
-
-Whilst it's possible to install Custom Fonts on your iPad using an app such as [Fontcase](https://apps.apple.com/au/app/fontcase-manage-your-type/id1205074470), and these fonts will appear in apps such as Pages and Numbers, they do **not** appear in the Final Cut Pro (for iPad) Inspector.
-
-You can also install fonts via apps that contain fonts, [via the App Store](https://support.apple.com/en-au/guide/ipad/ipad952422ba/ipados), however, these also do **not** appear in the Final Cut Pro (for iPad) Inspector.
-
-**Final Cut Pro (for iPad) only lists a very strict set of built-in fonts in the Inspector.**
-
-We have submitted a feature request to Apple, as [explained on FCP Cafe](https://github.com/CommandPost/FCPCafe/issues/200).
-
-**However**, if you use the same Custom Font within a Motion Template on Mac, it **will** work on iPad.
-
-For example, the [BBC](https://www.bbc.co.uk) uses Final Cut Pro for a lot of their programs, so here's the familiar [BBC Reith](https://www.bbc.co.uk/branding/reith-font/) font in Final Cut Pro for iPad:
-
-![](../static/bbc-font.jpeg)
-
-!!!warning Please Note:
-You may only use BBC Reith if you have an agreement or other authorisation to collaborate with the BBC or BBC Studios. This may be as a broadcasting partner or co-production partner, event promoter, or as a customer of BBC Studios.
-!!!
-
-However, even though the above screenshot shows the [BBC Reith](https://www.bbc.co.uk/branding/reith-font/) font in the Inspector, it **won't** appear if you add another Title within Final Cut Pro (for iPad).
-
-You can edit the text though, as normal. Just keep in mind if you change the font to something else, you **can't** change it back.
+Custom Fonts appear correctly in the **Final Cut Pro (for iPad) v1.1** user interface. Thanks Apple!
 
 ---
 
@@ -166,51 +134,7 @@ When sending your project from Final Cut Pro on iPad back to your Mac, just expo
 
 ## Storing Media Externally
 
-!!!success Update!
-**Final Cut Pro (for iPad) v2.0** now supports storing libraries and media externally. Thanks Apple!
-!!!
-
-!!!danger Important
-Unfortunately, whilst this worked on **Final Cut Pro v1.0.0**, Apple has removed support for this workflow in **Final Cut Pro v1.0.1**.<br />
-<br />
-We are still testing and exploring other possibilities and workarounds for "linking to" external media.
-!!!
-
-Interestingly, it is actually possible to "link" to media on an external hard drive.
-
-However, even though Final Cut Pro (for iPad) will "link" to the external drive initially, and when you first start editing, you'll be editing off the external drive - in the background, Final Cut Pro will start copying everything across to the internal drive.
-
-As far as we can tell, there's currently no way to stop Final Cut Pro from importing the footage to your iPad's internal drive.
-
-This works slightly differently to DaVinci Resolve (for iPad) and LumaFusion, which both support "linking" to external drives without having a local/internal copy.
-
-With that in mind, if you still want to "link" to your media initially, you'll need to create the Final Cut Pro library on macOS, and make sure you keep the media **external** to the library.
-
-As long as both the generated Final Cut Pro (for iPad) project and media are on the same external hard drive, in the same location as they were on the Mac, everything will work.
-
-The reason for this is that internally Final Cut Pro (for Mac) created document-scope security-scoped bookmarks to each media file, which Final Cut Pro (for iPad) can also use to get access to the files, even in a sandboxed environment.
-
-After creating a new Final Cut Pro (for iPad) project using Transfer Toolbox, you may need to open the library back up on the Mac, to update all the bookmarks.
-
-Simply right-click on the new Final Cut Pro (for iPad) project in Finder and select **Show Package Contents**.
-
-![_Screenshot of Finder_](static/show-package-contents.png)
-
-Within the package contents, two folders deep, you'll find the Final Cut Pro (for Mac) library that you can now open on your Mac.
-
-![_Screenshot of Finder_](static/inside-project.png)
-
-Once you open it, and allow Background Tasks to complete, you can then close it, as the document-scope security-scoped bookmarks should now be updated.
-
-We will investigate automating this process in a future update.
-
-You can then import Final Cut Pro (for iPad) libraries via the home screen:
-
-![_Screenshot of Final Cut Pro (for iPad)_](static/import-ipad.jpeg)
-
-Just select the project on your external drive:
-
-![_Screenshot of Final Cut Pro (for iPad)_](static/external-ssd.jpeg)
+**Final Cut Pro (for iPad) v2.0** supports storing libraries and media externally. Thanks Apple!
 
 ---
 
