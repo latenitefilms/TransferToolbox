@@ -1,0 +1,14 @@
+﻿# Transfer Toolbox
+
+> Transfer Toolbox allows you to convert Final Cut Pro (for Mac) Libraries into Final Cut Pro (for iPad) Projects!
+
+- [Transfer Toolbox](https://transfertoolbox.fcp.cafe/readme.md): Transfer Toolbox
+- [Buy](https://transfertoolbox.fcp.cafe/buy.md): Buy on the Mac App Store
+- [System Requirements](https://transfertoolbox.fcp.cafe/system-requirements.md): Transfer Toolbox currently supports the following Final Cut Pro versions:
+- [How To Use](https://transfertoolbox.fcp.cafe/how-to-use.md): Final Cut Pro for iPad is very different to the Mac version, so there are a bunch of known issues and limitations. Please read this entire page carefully, and do workflow tests before using on a production job.
+- [Workflow](https://transfertoolbox.fcp.cafe/workflow.md): Why exactly would you want to move from a Mac to an iPad for Final Cut Pro?
+- [Support](https://transfertoolbox.fcp.cafe/support.md): If you run into any bugs, crashes, or you have a feature request, you can post an issue here.
+- [Release Notes](https://transfertoolbox.fcp.cafe/release-notes.md): 🎉 Released:
+- [Uninstall](https://transfertoolbox.fcp.cafe/uninstall.md): To uninstall Transfer Toolbox, simply drag the application to the trash/bin.
+- [Credits](https://transfertoolbox.fcp.cafe/credits.md): Transfer Toolbox has been thrown together by Chris Hocking at LateNite.
+- [Privacy Policy](https://transfertoolbox.fcp.cafe/privacy.md): This is the privacy policy for the Transfer Toolbox, macOS Application that is available on TestFlight and for free via GitHub.
